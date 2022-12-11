@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\KFC\DTO_KFC\bin\Debug\DTO_KFC.dll
+C:\Users\Admin\source\repos\KFC\DTO_KFC\bin\Debug\DTO_KFC.pdb
+C:\Users\Admin\source\repos\KFC\DTO_KFC\obj\Debug\DTO_KFC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\KFC\DTO_KFC\obj\Debug\DTO_KFC.dll
+C:\Users\Admin\source\repos\KFC\DTO_KFC\obj\Debug\DTO_KFC.pdb
+C:\Users\Admin\source\repos\KFC\DTO_KFC\obj\Debug\DTO_KFC.csproj.AssemblyReference.cache
+D:\Heo\KFC\DTO_KFC\bin\Debug\DTO_KFC.dll
+D:\Heo\KFC\DTO_KFC\bin\Debug\DTO_KFC.pdb
+D:\Heo\KFC\DTO_KFC\obj\Debug\DTO_KFC.csproj.AssemblyReference.cache
+D:\Heo\KFC\DTO_KFC\obj\Debug\DTO_KFC.csproj.CoreCompileInputs.cache
+D:\Heo\KFC\DTO_KFC\obj\Debug\DTO_KFC.dll
+D:\Heo\KFC\DTO_KFC\obj\Debug\DTO_KFC.pdb

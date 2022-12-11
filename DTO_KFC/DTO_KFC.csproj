@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1D0DEB6-0004-4D7F-AB39-E889D2602161}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DTO_KFC</RootNamespace>
+    <AssemblyName>DTO_KFC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTO_BangKeLuong.cs" />
+    <Compile Include="DTO_ChucDanh.cs" />
+    <Compile Include="DTO_CTHD.cs" />
+    <Compile Include="DTO_CTPN.cs" />
+    <Compile Include="DTO_CTTD.cs" />
+    <Compile Include="DTO_HoaDon.cs" />
+    <Compile Include="DTO_HoSoNhanVien.cs" />
+    <Compile Include="DTO_LuongChucDanh.cs" />
+    <Compile Include="DTO_NguyenLieu.cs" />
+    <Compile Include="DTO_NhaCungCap.cs" />
+    <Compile Include="DTO_NhanVien.cs" />
+    <Compile Include="DTO_NhomThucDon.cs" />
+    <Compile Include="DTO_PhanQuyen.cs" />
+    <Compile Include="DTO_PhieuNhap.cs" />
+    <Compile Include="DTO_SanPham.cs" />
+    <Compile Include="DTO_TaiKhoan.cs" />
+    <Compile Include="DTO_ThucDon.cs" />
+    <Compile Include="DTO_TienDua.cs" />
+    <Compile Include="LoadAnhReport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
